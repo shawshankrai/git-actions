@@ -40,7 +40,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
 
-      # Setting up docker command line plugin
+      # Setting up docker command line plugin, recommended
     - name: Set up Docker Buildx
       uses: docker/setup-buildx-action@v1
 
